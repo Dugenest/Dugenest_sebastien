@@ -7,50 +7,199 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    <header id="header" class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-12 px-0">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container justify-content-center">
-                        <a class="navbar-brand" href="#" id="pizzahead"></a>
+        <div class="container-fluid">            
+            <div class="row">
+                <div class="col-12 col-md-12 px-3">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="#" id="portfoliohead"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#accueil"><p id="pizzahead">Accueil</p></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#biographie"><pid id="pizzahead">Biographie</p></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#portfolio"><p id="pizzahead">Portfolio</p></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#contact"><p id="pizzahead">Contact</p></a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#biographie"><p id="portfoliohead">Biographie</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#portfolio"><p id="portfoliohead">Portfolio</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#contact"><p id="portfoliohead">Contact</p></a>
+                                </li>
                             </ul>
                         </div>
-                    </div>
-                </nav>
-                <div class="container-fluid text-center">
-                    <h1 class="header-title">SEBASTIEN DUGENEST</h1><hr>
-                    <p class="header-text">Développeur Web et Web Mobile</p>
+                    </nav>
                 </div>
             </div>
         </div>
 
+    <header id="header_img" class="container-fluid">
+        <div class="row overlay"></div>
     </header>
+        <div class="row h-100 justify-content-center align-items-center overlay">
+            <div class="col text-center">
+                <h1 class="header-title">SEBASTIEN DUGENEST</h1><hr>
+                <p class="header-text">Développeur Web et Web Mobile</p>
+            </div>
+        </div>
+    
 
     <main>
-        
+        <section class="biographie" id="biographie">
+            <div class="container-fluid py-5">
+                <div class="row px-md-3">
+                    <div class="col-md-5 py-5">
+                        <img src="./public/assets/img/Photo.jpg" alt="Photo de profil" class="img-fluid">
+                    </div>
+                    <div class="col col-md-7 py-5 px-md-5">
+                        <ul class="nav-item">
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/3788610.png" alt="logo-age">Age : 40 ans</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/1581919.png" alt="logo-permis">Permis B</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/43849624-icône-de-voiture-transport-icon-vector-illustration.jpeg" alt="logo-vehicule">Véhicule personnel</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/pngtree-address-icon-image_2287716.jpeg" alt="logo-adresse">7 rue Charles Saint 80630 Beauval</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/icône-de-l-enveloppe-message-électronique-boîte-réception-messages-électroniques-web-messagerie-158449848.webp" alt="logo-email">sebastien.dugenest@gmail.com</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/pngtree-phone-icon-isolated-on-abstract-background-png-image_2001593.jpeg" alt="logo-tel">07 49 46 21 69</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/174857.png" alt="logo-indeed">linkedin.com/in/sébastiendugenest-2936a8178</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/49870.png" alt="logo-planning">Télétravail ou présentiel</li>
+                            <li class="biographie-text"><img class="logo" src="./public/assets/img/1377975.png" alt="logo-drapeau">Anglais (scolaire)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row py-md-3 text-center">
+                    <p class="biographie-text">Actuellement en formation avec LaManu pour devenir Développeur Web et Web Mobile.</p>
+                    <p class="biographie-text">Si vous recherchez une personne motivée, avec une grande ecpèrience managériale, qui aime bien collaborer avec l'équipe déjà présente, alors je suis votre homme !</p>
+                </div>
+            </div>
+        </section>
+        <section class="informations">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="formations col col-md-6 py-3 py-md-3">
+                        <h2 class="formations-title">FORMATIONS</h2>
+                        <ul class="nav-item">
+                            <li class="formations-text py-3">-> Titre en préparation de Développeur Web et Web Mobile - LaManu Amiens - <span class="italic">Août 2023 à Février 2024</span>
+                                <ul class="sous-class-formations-text">
+                                    <li class="sous-class-formations-text">* Back End</li>
+                                    <li class="sous-class-formations-text">* Méthode Agile</li>
+                                </ul>
+                            </li>
+                            <li class="formations-text py-3">-> Certificat d'aptitude militaire - Ecole des sous officiers de l'Armée de l'Air de Rochefort - <span class="italic">Novembre 2007 à Novembre 2008</span></li>
+                            <li class="formations-text py-3">-> Brevet de Technicien supérieur Electrotechnique - CFAI Somme - <span class="italic">Septembre 2004 à Juillet 2006</span></li>
+                        </ul>
+                    </div>
+                    <div class="experiences-professionnelles col col-md-6 py-3 py-md-3">
+                        <h2 class="experiences-professionnelles-title">EXPERIENCES PROFESSIONNELLES</h2>
+                        <ul class="nav-item py-3">
+                            <li class="experiences-professionnelles-text">-> Assistant Exploitation - Samsic Sécurité Amiens - <span class="italic">Juin 2021 à Juin 2022</span>
+                                <ul class="sous-class-experiences-professionnelles">
+                                    <li class="sous-class-experiences-professionnelles-text">* Gestion plannings</li>
+                                    <li class="sous-class-experiences-professionnelles-text">* Relation clients</li>
+                                    <li class="sous-class-experiences-professionnelles-text">* Gestion de crise</li>
+                                    <li class="sous-class-experiences-professionnelles-text">* Gestion d'une équipe de 150 agents</li>
+                                </ul>
+                            </li>
+                            <li class="experiences-professionnelles-text py-3">-> Superviseur - Capital Sécurité Compiègne - <span class="italic">Octobre 2009 à Mars 2020</span>
+                                <ul class="sous-class-experiences-professionnelles">
+                                    <li class="sous-class-experiences-professionnelles-text">* Gestion de plusieurs sites comme "Center Parcs", "FM Logistic", "Intermarché", "Whirlpool"...</li>
+                                    <li class="sous-class-experiences-professionnelles-text">* Gestion d'une équipe de 100 agents</li>
+                                </ul>                                </li>
+                            <li class="experiences-professionnelles-text py-3">-> Sergent - Armée de l'Air à Rochefort - <span class="italic">Novembre 2007 à Novembre 2008</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row competences py-3">
+                    <h2 class="competences-title">COMPETENCES</h2>
+                    <div class="col-md-6 py-3">
+                        <ul class="nav-item">
+                            <li class="competences-text">-> Back End</li>
+                            <li class="competences-text">-> Planification</li>
+                            <li class="competences-text">-> Gestion de crise</li>
+                            <li class="competences-text">-> Management</li>
+                            <li class="competences-text">-> Relation Clients</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-md-around py-3 text-md-end">
+                        <ul class="nav-item">
+                            <li class="competences-text">-> calme</li>
+                            <li class="competences-text">-> Rigoureux</li>
+                            <li class="competences-text">-> Consciencieux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <section class="portfolio py-3 text-center" id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <p class="portfolio-text py-3">--> Portfolio en cours</p>
+        </section>
+            <div class="row logiciels py-3">
+                <h2 class="logiciels-title">LOGICIELS</h2>
+                <div class="col-md-6 py-md-3">
+                    <ul class="nav-item">
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/49870.png"> Planimède / comète</li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/1486565573-microsoft-office_81557.png"> Pack office</li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/social_html5_1970.png"> HTML5</li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/css3.png"> CSS3</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-md-end py-md-3">
+                    <ul class="nav-item">
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/5968292.png"> Javascript </li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner.png"> Github </li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/5968705.png"> Figma </li>
+                        <li class="logiciels-text"><img class="logo2" src="./public/assets/img/trello_icon_146085.png"> Trello </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="cv-numerique">
+            <div class="row">
+                <h2>CURRICULUM VITAE</h2>
+                    <p>-->   Ci-joint mon <a href="./cv.html" class="cv">CV</a> en version papier.</p>
+            </div>
+        </section class="contact">
+        <form class="contact py-5 py-md-5" id="contact">
+                <h2>CONTACT</h2>
+            <div class="row py-3 py-md-3">    
+                <div class="col col-md-6"> 
+                    <input type="text" class="form-control" placeholder="Nom *" aria-label="Last name">
+                </div>
+                <div class="col col-md-6">
+                    <input type="text" class="form-control" placeholder="Prénom *" aria-label="First name">
+                </div>
+            </div>
+            <div class="row py-3 py-md-3">     
+                <div class="col col-md-6">
+                    <input type="email" class="form-control" placeholder="Adresse email *" aria-label="email">
+                </div>
+                <div class="col col-md-6">
+                    <input type="tel" class="form-control" placeholder="Téléphone" aria-label="number">
+                </div>
+            </div>
+            <div class="row py-3 py-md-3">
+                <div class="col">
+                    <textarea class="form-control" rows="5" placeholder="Message *"></textarea>
+                </div>
+            </div>
+            <div class="row py-3 py-md-3 justify-content-center">
+                <input class="btn-form" type="submit" value="Envoyer">
+            </div>
+        </form>
     </main>
 
     <footer>
-        
+        <div class="container-fluid">
+            <div class="row text-center py-3 py-md-3">
+                <div class="mention-legal-text"><a href="#">© - 2023 Sebastien Dugenest</a></div>                    
+                <div class="mention-legal-text"><a href="https://entreprendre.service-public.fr/vosdroits/F31228#:~:text=Les%20mentions%20l%C3%A9gales%20sont%20les,ou%20dans%20une%20page%20d%C3%A9di%C3%A9e.">Mentions Légales</a></div>
+                <div class="mention-legal-text"><a href="https://www.rocketlawyer.com/fr/fr/entreprise/utilisez-les-cgv-adaptees/document/cgu-conditions-generales-d-utilisation?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgll1vQj9U2InCCS0Q3O35NaMHdMT6wblmT2XVbriUt9PA_g9YZSHcRoCIE4QAvD_BwE">CGU</a></div>
+                <div class="mention-legal-text"><a href="https://cookiefirst.com/fr/generateur-de-politique-de-cookies-pour-votre-site-web/?gclid=CjwKCAjw6p-oBhAYEiwAgg2PghpPvGIw2X0zA-8cw4-gaSRVlmwPX-BAu9-tBrBmLYZ2girv2cmzgxoC_WwQAvD_BwE">Politique de confidentialité></a></div>
+            </div>
+        </div>
     </footer>
-    <script src="./assets/framework/bootstrap.min.js"></script>
+
+    <script src="./public/assets/framework/bootstrap.min.js"></script>
 </body>
 </html>
