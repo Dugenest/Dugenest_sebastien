@@ -57,10 +57,16 @@ main ul {
     list-style: none;
 }
 
-main .logo, main .logo2 {
+main .logo {
     width: 40px;
     height: 30px;
     padding-right: 10px;
+}
+
+main .logo2 {
+    width: 50%;
+    height: 450px;
+    margin: auto;
 }
 
 .italic {
@@ -96,4 +102,8 @@ h4 {
     background-color: blueviolet;
     color: white;
     border-radius: 10px;
+}
+
+li {
+    list-style: none;
 }
