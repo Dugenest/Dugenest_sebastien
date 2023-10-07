@@ -39,8 +39,8 @@ hr {
 }
 
 .biographie img {
-    width: 150vw;
-    height: 650px;
+    width: 100vw;
+    height: 565px;
 }
 
 .biographie li {
@@ -57,13 +57,9 @@ main ul {
     list-style: none;
 }
 
-/* .vertical-line {
-    orientation: column;
-} */
-
 main .logo, main .logo2 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 30px;
     padding-right: 10px;
 }
 
@@ -72,13 +68,27 @@ main .logo, main .logo2 {
 }
 
 h2, h3 {
-    color: #436EDB;
+    color: #03B1D9;
     text-align: center;
+}
+
+h4 {
+    color: red;
+    text-align: center;
+}
+
+.cv {
+    height: 100vh;
+    width: 100vw;
 }
 
 .contact {
     padding-left: 0;
     margin-left: 0;
+}
+
+.red {
+    color: red;
 }
 
 .btn-form {
