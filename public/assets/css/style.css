@@ -3,7 +3,7 @@
 }
 
 #header_img{
-    background-image: url("/public/assets/img/dmitry-chernyshov-mp7apsum7ae-unsplash-640x512.jpeg");
+    background-image: url("../img/dmitry-chernyshov-mp7apsum7ae-unsplash-640x512.jpeg");
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
