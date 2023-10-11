@@ -65,7 +65,7 @@ main .logo {
 
 main .logo2 {
     width: 30%;
-    height: 300px;
+    height: 200px;
     margin: auto;
 }
 
@@ -81,6 +81,10 @@ h2, h3 {
 h4 {
     color: red;
     text-align: center;
+}
+
+.card1 {
+    background-color: white;
 }
 
 .cv {
