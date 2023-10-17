@@ -83,8 +83,14 @@ h4 {
     text-align: center;
 }
 
-.card1 {
+.card1, .card2 {
     background-color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 340px;
+    background-size: cover;
 }
 
 .cv {
