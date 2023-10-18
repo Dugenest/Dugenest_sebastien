@@ -83,8 +83,10 @@ h4 {
     text-align: center;
 }
 
-.card1, .card2 {
+.card {
     background-color: white;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
 .card-img-top {
