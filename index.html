@@ -164,7 +164,7 @@
         <!-- Début du portfolio -->
     <section class="portfolio row text-center py-3" id="portfolio">
         <h2>PORTFOLIO</h2>
-        <div class="col-md-3 card">
+        <div class="col-12 col-md-3 card">
             <img src="./public/assets/img/Capture d’écran 2023-10-18 à 19.21.23.png" class="image-fluid card-image" alt="films">
             <div class="card-body">
                 <h5 id="card-title" class="card-title">Affiche de films</h5>
@@ -176,7 +176,7 @@
             </div>
         </div>
         
-        <div class="col-md-3 card">
+        <div class="col-12 col-md-3 card">
             <img src="./public/assets/img/Capture d’écran 2023-10-18 à 19.11.15.png" class="image-fluid card-image" alt="jeu du pendu">
             <div class="card-body">
                 <h5 id="card-title" class="card-title">Le pendu</h5>
@@ -189,7 +189,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 card">
+        <div class="col-12 col-md-3 card">
             <img src="./public/assets/img/Sans titre.png" class="image-fluid card-image" alt="Le Yams">
             <div class="card-body">
                 <h5 id="card-title" class="card-title">Le Yams</h5>
@@ -202,7 +202,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 card">
+        <div class="col-12 col-md-3 card">
             <img src="./public/assets/img/Capture d’écran 2023-11-03 à 17.55.24.png" class="image-fluid card-image" alt="Marché de Noël d'Amiens 2023">
             <div class="card-body">
                 <h5 id="card-title" class="card-title">Marché de Noël d'Amiens 2023</h5>
@@ -216,7 +216,7 @@
                         -> Un calendrier de la programmation,
                         -> Un formulaire de contact fonctionnel, et un plan d’accès pour s’y rendre.</p>
                 </details>
-                <a href="http://localhost:8888/le_marche_de_noel/" target="_blank" class="btn btn-primary">Go</a>
+                <!-- <a href="" target="_blank" class="btn btn-primary">Go</a> -->
             </div>
         </div>
     </section>
@@ -265,7 +265,7 @@
         <section class="cv-numerique py-3" id="cv">
             <div class="row">
                 <h2>CURRICULUM VITAE</h2>
-                    <p>-->   Ci-joint mon <a href="./cv.html" target="_blank" class="cv">CV</a> en version papier.</p>
+                    <p>-->   Je vous transmets ci-joint mon <a href="./cv.html" target="_blank" class="cv">CV</a> en version papier.</p>
             </div>
         </section>
         <!-- Fin du cv -->
@@ -275,44 +275,46 @@
             <!-- Début du formulaire -->
             <form class="contact py-5 py-md-5" id="contact">
                     <h2>CONTACT</h2>
-                <div class="row py-3 py-md-3">    
-                    <div class="col col-md-6"> 
+                <div class="row py-3 py-md-3 justify-content-center">    
+                    <div class="col col-md-4"> 
                         <label for="form-control">Nom<strong class="red"> *</strong></label>
                         <input type="text" class="form-control" placeholder="Votre nom" aria-label="Last name">
                     </div>
-                    <div class="col col-md-6">
+                    <div class="col col-md-4">
                         <label for="form-control">Prénom<strong class="red"> *</strong></label>
                         <input type="text" class="form-control" placeholder="Votre prénom" aria-label="First name">
                     </div>
                 </div>
-                <div class="row py-3 py-md-3">    
-                    <div class="col col-md-6"> 
+                <div class="row py-3 py-md-3 justify-content-center">    
+                    <div class="col col-md-4"> 
                         <label for="form-control">Société</label>
                         <input type="text" class="form-control" placeholder="Votre société" aria-label="company">
                     </div>
-                    <div class="col col-md-6">
+                    <div class="col col-md-4">
                         <label for="form-control">Secteur d'activité</label>
                         <input type="text" class="form-control" placeholder="Votre secteur d'activité" aria-label="activity area">
                     </div>
                 </div>
-                <div class="row py-3 py-md-3">     
-                    <div class="col col-md-6">
+                <div class="row py-3 py-md-3 justify-content-center">     
+                    <div class="col col-md-4">
                         <label for="form-control">Email<strong class="red"> *</strong></label>
                         <input type="email" class="form-control" placeholder="Votre mail" aria-label="email">
                     </div>
-                    <div class="col col-md-6">
+                    <div class="col col-md-4">
                         <label for="form-control">Téléphone<strong class="red"> *</strong></label>
                         <input type="tel" class="form-control" placeholder="Votre téléphone" aria-label="number">
                     </div>
                 </div>
-                <div class="row py-3 py-md-3">
-                    <div class="col">
+                <div class="row py-3 py-md-3 justify-content-center">
+                    <div class="col col-md-8">
                         <label for="form-control">Message<strong class="red"> *</strong></label>
                         <textarea class="form-control" rows="5" placeholder="Votre message"></textarea>
                     </div>
                 </div>
-                <div class="row form-check">
-                    <input class="form-check-input" type="checkbox"><p>En soumettant ce formulaire, j’accepte que mes informations soient utilisées uniquement dans le cadre de ma demande et de la relation commerciale éthique et personnalisée qui peut en découler</p>
+                <div class="row justify-content-center">
+                    <div class="col col-md-8">
+                        <!-- <input class="form-check-input" type="checkbox"><p>En soumettant ce formulaire, j’accepte que mes informations soient utilisées uniquement dans le cadre de ma demande et de la relation commerciale éthique et personnalisée qui peut en découler</p> -->
+                    </div>
                 </div>
                 <div class="row py-3 py-md-3 justify-content-center">
                     <input class="btn-form" type="submit" value="Envoyer">

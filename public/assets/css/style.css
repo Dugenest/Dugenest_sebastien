@@ -85,7 +85,7 @@ h4 {
 
 .card {
     margin-top: 35px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
     background-color: #b8d7db80;
     backdrop-filter: blur(4px);
     box-shadow: 0px 5px 10px blueviolet;
