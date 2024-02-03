@@ -1,5 +1,5 @@
 :root {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #header_img{
@@ -38,9 +38,9 @@ hr {
     opacity: 1;
 }
 
-.biographie img {
-    width: 100vw;
-    height: 565px;
+.profilImg {
+    width: 470px;
+    height: 600px;
 }
 
 .biographie li {
@@ -65,7 +65,7 @@ main .logo {
 
 main .logo2 {
     width: 25%;
-    height: 190px;
+    height: 300px;
     margin: auto;
 }
 
@@ -89,6 +89,11 @@ h4 {
     background-color: #b8d7db80;
     backdrop-filter: blur(4px);
     box-shadow: 0px 5px 10px blueviolet;
+}
+
+.card-image {
+    height: 300px;
+    width: auto;
 }
 
 .card-img-top {
@@ -118,4 +123,8 @@ h4 {
 
 li {
     list-style: none;
+}
+
+.card-body {
+    color: white;
 }
